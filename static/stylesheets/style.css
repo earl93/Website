@@ -24,9 +24,25 @@ body{
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
+.header {
+    margin-bottom: 40px;
+}
+
 #topBar {
     height: 47px;
     background-color: #353535;
+}
+
+.topNav {
+    padding-left: 20px;
+}
+.topNav li {
+    display: inline-block;
+    padding: 12px 10px;
+}
+.topNav li a {
+    color: white;
+    text-transform: uppercase;
 }
 
 .logo {
@@ -66,4 +82,8 @@ ul.bottomNav {
     font-size: 15px;  text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+#content {
+    padding: 0 30px;
 }
