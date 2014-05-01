@@ -11,6 +11,12 @@ app.use("/static", express.static(__dirname + "/static"));
 app.get('/', function(req, res){
 	res.render('index.jade');
 });
+app.get('/index', function(req, res){
+	res.render('index.jade');
+});
+app.get('/about', function(req, res){
+	res.render('about.jade');
+});
 
 io.sockets.on("connection",function(socket){
 	console.log("connection detected");

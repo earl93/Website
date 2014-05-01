@@ -7,6 +7,7 @@ html(lang="en")
 		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Passion+One:700')
 		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Changa+One')
 		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=PT+Sans:400,700')
+		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lato:900')
 		link(rel='stylesheet', href='static/stylesheets/style.css')
 	body
 		#wrap
@@ -34,24 +35,49 @@ html(lang="en")
 
 				#logoBar
 					.logo
-						a.title(href="./") Crown
+						a.title(href="./index") Crown
 						span.description Insoo's personal website
 				#bottomBar
 					.nav
 						ul.bottomNav.boldF
 							li
-								a(href="./") Home
+								a(href="./index") Home
 							li
-								a(href="./") Blog
+								a(href="./blog") Blog
 							li
-								a(href="./") Projects
+								a(href="./projects") Projects
 							li
-								a(href="./") About
+								a(href="./about") About
 							li
-								a(href="./") Contact
-			#content BLah blah blah stuff goes here 
+								a(href="./contact") Contact
+			#content
 				block content
 			.footer
+				.innerfooter.row
+					.footerbox.col-xs-6 
+						h4.boldF interest
+						p Reinventing applications to help people better use and understand the true purpose of the app. 
+					.footerbox.col-xs-6
+						h4.boldF personal contact
+						p 
+							| Email : 
+							a(href="#") earl93@hotmail.com
+							br
+							| Github : 
+							a(href="http://github.com/earl93") github.com/earl93
+					
+			.f
+				ul.footerNav.boldF
+					li
+						a(href="./index") Home
+					li
+						a(href="./blog") Blog
+					li
+						a(href="./projects") Projects
+					li
+						a(href="./about") About
+					li
+						a(href="./contact") Contact
 
 
 		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')

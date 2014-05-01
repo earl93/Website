@@ -12,13 +12,35 @@ body{
 	background-size: cover;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
+h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #DDDDDD;
+}
+
+h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
 .boldF {	
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 }
 
 #wrap {
-    width: 960px;
+    width: 550px;
     background: white;
     margin: 30px auto;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
@@ -43,6 +65,7 @@ body{
 .topNav li a {
     color: white;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .logo {
@@ -71,6 +94,10 @@ body{
     display: inline-block;
     padding: 12px 15px;
 }
+
+.nav .bottomNav li:hover {
+    background-color:#353535;
+}
 .nav {
     padding: 0 30px;
 }
@@ -85,5 +112,49 @@ ul.bottomNav {
 }
 
 #content {
-    padding: 0 30px;
+    padding: 0 30px 30px 30px;
+}
+
+.footer {
+    background-color: #353535;
+    padding:0 30px;
+}
+
+.footerbox {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footerbox p {
+    color: #adadad;
+}
+
+.footerNav li {
+    display: inline-block;
+    padding: 8px 15px;
+}
+.footerNav {
+    background-color: #2A2A2A;
+    padding: 0 15px;
+}
+
+.footerbox a {
+    color: #adadad;
+    transition:0.1s;
+}
+.footerbox a:hover{
+    color: white;
+    transition:0.1s;
+}
+
+.footerNav li a {
+    color: #939191;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.1s;
+}
+
+.footerNav li a:hover{
+    color:white;
+    transition:0.1s;
 }
