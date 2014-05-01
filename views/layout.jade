@@ -5,6 +5,8 @@ html(lang="en")
 		title Insoo Choo
 		link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css')
 		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Passion+One:700')
+		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Changa+One')
+		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=PT+Sans:400,700')
 		link(rel='stylesheet', href='static/stylesheets/style.css')
 	body
 		#wrap
@@ -13,7 +15,20 @@ html(lang="en")
 				#logoBar
 					.logo
 						a.title(href="./") Crown
+						span.description Insoo's personal website
 				#bottomBar
+					.nav
+						ul.bottomNav.boldF
+							li
+								a(href="./") Home
+							li
+								a(href="./") Blog
+							li
+								a(href="./") Projects
+							li
+								a(href="./") About
+							li
+								a(href="./") Contact
 			#content
 				block content
 

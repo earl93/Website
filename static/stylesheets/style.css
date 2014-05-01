@@ -12,10 +12,14 @@ body{
 	background-size: cover;
 }
 
+.boldF {	
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+}
+
 #wrap {
     width: 960px;
     background: white;
-    height: 200px;
     margin: 30px auto;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
@@ -35,4 +39,31 @@ body{
     font-family: 'Passion One',cursive;
     font-size: 80px;
     line-height: 84px;
+}
+
+.logo .description {
+    border-left: 1px dashed #ccc;
+    color: #999;
+    font-weight: bold;
+    margin-left: 17px;
+    padding: 20px 0 20px 17px;
+    position: relative;
+    top: -20px;
+}
+
+.nav .bottomNav li {
+    display: inline-block;
+    padding: 12px 15px;
+}
+.nav {
+    padding: 0 30px;
+}
+ul.bottomNav {
+    background-color: #C14545;
+}
+.bottomNav li a {
+    color: #FFFFFF; 
+    font-size: 15px;  text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
