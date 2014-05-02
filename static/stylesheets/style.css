@@ -158,3 +158,9 @@ ul.bottomNav {
     color:white;
     transition:0.1s;
 }
+
+
+#content p a {
+    color: #C14545;
+    border-bottom: 1px dashed #C14545;
+}
