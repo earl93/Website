@@ -7,7 +7,7 @@ body{
 	font-size: 14px;
 	line-height: 23px;
 	margin: 0;
-	padding: 0;
+	padding: 0 30px;
 	background: url('../images/bg.jpg') no-repeat fixed center;
 	background-size: cover;
 }
@@ -34,6 +34,13 @@ h3 {
     padding-bottom: 2px;
 }
 
+h3 a {
+    color: #C14545;
+}
+h3 a:hover{
+    color:#C14545;
+}
+
 h4 {
     color: white;
     text-transform: uppercase;
@@ -48,10 +55,12 @@ h4 {
 }
 
 #wrap {
-    width: 550px;
-    background: white;
-    margin: 30px auto;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+	max-width: 850px;
+	width: 100%;
+	min-width: 550px;
+	background: white;
+	margin: 30px auto;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
 .header {
@@ -129,7 +138,12 @@ ul.bottomNav {
 }
 
 #content img {
-    width: 100%;
+    max-width: 300px;
+    max-height: 210px;
+    margin-right: 2px;
+    width: 49%;
+    height: 190px;
+    display: inline-block;
 }
 
 .footer {

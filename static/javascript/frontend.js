@@ -5,3 +5,6 @@ socket.on('connect',function(){
 });
 
 
+$(document).ready(function() {
+	$(".fancybox").fancybox();
+});
