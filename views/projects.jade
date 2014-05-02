@@ -62,10 +62,22 @@ block content
 		a msSQL
 		| &nbsp;. The frontend application calls a proxy API which then calls the second application. Then the API returns data back to frontend.
 
-	h3.boldF Storage
+	h3.boldF 
+		a(href="http://storage.insoochoo.com") Storage
+	a.fancybox(rel="group", href="../static/images/storage.png") 
+		img(src="../static/images/storage.png")
+	a.fancybox(rel="group", href="../static/images/storage2.png") 
+		img(src="../static/images/storage2.png")
 	p
-		|Storage is blah blah
+		|Storage is a personal web storage application for saving files and links.
+		br
+		|This application is written in 
 		a PHP
+		| &nbsp with
+		a MYSQL
+		| &nbsp;used for database. It uses a session system to log user information. Along with 
+		a sha-256 
+		| encryption with salt for verifications. As this was one of my first project, I'm currently working on reimplementing and redesigning the whole application with NodeJS with MongoDB.  
 		br
 
 	h3.boldF Speed
