@@ -123,6 +123,15 @@ ul.bottomNav {
     padding: 0 30px 30px 30px;
 }
 
+#content p a {
+    color: #C14545;
+    border-bottom: 1px dashed #C14545;
+}
+
+#content img {
+    width: 100%;
+}
+
 .footer {
     background-color: #353535;
     padding:0 30px;
@@ -165,10 +174,4 @@ ul.bottomNav {
 .footerNav li a:hover{
     color:white;
     transition:0.1s;
-}
-
-
-#content p a {
-    color: #C14545;
-    border-bottom: 1px dashed #C14545;
 }

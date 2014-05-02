@@ -14,8 +14,11 @@ app.get('/', function(req, res){
 app.get('/index', function(req, res){
 	res.render('index.jade');
 });
-app.get('/about', function(req, res){
-	res.render('about.jade');
+app.get('/blog', function(req, res){
+	res.render('blog.jade');
+});
+app.get('/projects', function(req, res){
+	res.render('projects.jade');
 });
 
 io.sockets.on("connection",function(socket){
