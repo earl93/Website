@@ -20,6 +20,12 @@ app.get('/blog', function(req, res){
 app.get('/projects', function(req, res){
 	res.render('projects.jade');
 });
+app.get('/resume', function(req, res){
+	res.render('resume.jade');
+});
+app.get('/contact', function(req, res){
+	res.render('contact.jade');
+});
 
 io.sockets.on("connection",function(socket){
 	console.log("connection detected");

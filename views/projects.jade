@@ -42,6 +42,21 @@ block content
 		| &nbsp; on backend. 
 		|Socket.io is utilized to allow players to communicate with the server and each other. Each player is represented as a socket object, when the player accesses the page, the client-side code links its socket object to the server-side. Then the server code is responsible for processing and returning informations such as available rooms, player decisions and current game state. The game logic is stored in server code.
 	h3.boldF 
+		a Jarvis
+	a.fancybox(rel="group", href="../static/images/jarvis.png") 
+		img(src="../static/images/jarvis.png")
+	p
+		| Jarvis is a full stack app made during DBRS Limited 2014 Hackathon for automating PR disclosure checking process for the compliance department. 
+		a #First Place
+		br
+		| It uses 
+		a NodeJS 
+		| &nbsp;as a middleware that communicates with a 
+		a ASP.NET 
+		| &nbsp;API with 
+		a MSSQL 
+		| &nbsp;attached to it. A user passes in a press release document with specified jurisdictions and the app will return a report with disclosure information. 
+	h3.boldF 
 		a(href="http://crown.azurewebsites.net") SuperLegit2014
 	a.fancybox(rel="group", href="../static/images/crown.png") 
 		img(src="../static/images/crown.png")
@@ -59,7 +74,7 @@ block content
 		| . The second application is a RESTful API built on 
 		a ASP.NET
 		| &nbsp;hooked up with 
-		a msSQL
+		a MSSQL
 		| &nbsp;. The frontend application calls a proxy API which then calls the second application. Then the API returns data back to frontend.
 
 	h3.boldF 
@@ -73,10 +88,10 @@ block content
 		br
 		|This application is written in 
 		a PHP
-		| &nbsp with
+		| &nbsp;with 
 		a MYSQL
 		| &nbsp;used for database. It uses a session system to log user information. Along with 
-		a sha-256 
+		a SHA-256 
 		| encryption with salt for verifications. As this was one of my first project, I'm currently working on reimplementing and redesigning the whole application with NodeJS with MongoDB.  
 		br
 
