@@ -2,18 +2,18 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 body{
-	color: #5c5c5c;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	line-height: 23px;
-	margin: 0;
-	padding: 0 30px;
-	background: url('../images/bg.jpg') no-repeat fixed center;
-	background-size: cover;
+    color: #5c5c5c;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 30px;
+    background: url('../images/bg.jpg') no-repeat fixed center;
+    background-size: cover;
 }
 
 a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 h2 {
@@ -49,18 +49,18 @@ h4 {
     margin-bottom: 20px;
 }
 
-.boldF {	
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+.boldF {    
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }
 
 #wrap {
-	max-width: 850px;
-	width: 100%;
-	min-width: 550px;
-	background: white;
-	margin: 30px auto;
-	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    max-width: 850px;
+    width: 100%;
+    min-width: 550px;
+    background: white;
+    margin: 30px auto;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
 .header {
@@ -80,7 +80,7 @@ h4 {
     padding: 12px 10px;
 }
 .topNav li a {
-    color: white;
+    color: #adadad;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
