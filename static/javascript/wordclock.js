@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("<style type='text/css'> #wc-ul li {display: inline-block;padding: 0px 3px;color: #DDDDDD;}#wc-ul li.wc { color: #C14545;} </style>").appendTo("head");
+	$("<style type='text/css'> #wc-ul li {display: inline-block;padding: 0px 3px;color: rgba(221, 221, 221, 0.49);}#wc-ul li.wc { color: #C14545;} </style>").appendTo("head");
     var content="<ul id='wc-ul'>";
 	content+="<li id='wc-Sunday'>Sunday</li>";
 	content+="<li id='wc-Monday'>Monday</li>";
